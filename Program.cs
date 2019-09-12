@@ -77,8 +77,8 @@ namespace ISM4300_Deliverable2_Degenbaeva
             catch
             {
                 Console.WriteLine("Contact me for any questions!");
-            }
-            
-        }
-    }
-}
+            }// End of catch
+
+        }// End of Main
+    } // End of class
+}// End of namespace
