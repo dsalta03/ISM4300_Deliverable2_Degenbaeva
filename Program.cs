@@ -6,9 +6,16 @@ namespace ISM4300_Deliverable2_Degenbaeva
     {
         static void Main(string[] args)
         {
+            // Ask the user for input for a grade
+            Console.WriteLine("What grade do you expect in ISM4300? ");
+            /*
+               Use the try catch block to validate user input.
+               If the user provides bad input, the catch block
+               will handle the error and a message will be displayed.
+            */
             try
             {
-                Console.WriteLine("What grade do you expect in ISM4300?");
+                // This variable will gather the user input
                 int grade = int.Parse(Console.ReadLine());
 
                 // Here's the grading criteria according to the syllabus
